@@ -43,5 +43,8 @@ void pint(stack_t **stack, unsigned int line_number);
 void pop(stack_t **stack, unsigned int line_number);
 void swap(stack_t **stack, unsigned int line_number);
 void add(stack_t **stack, unsigned int line_number);
+void free_stack(stack_t **stack);  /* Prototype for free_stack function */
+void execute_command(char *line, stack_t **stack);  /* Prototype for execute_command function */
 
 #endif /* _MONTY_H_ */
+
